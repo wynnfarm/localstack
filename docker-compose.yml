@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  localstack:
+    image: localstack/localstack
+    container_name: localstack
+    ports:
+      - '53:53'
+      - '53:53/udp'
+      - '443:443'
+      - '8080:8080'
+      - '4566-4583:4566-4583'
+    environment:
+      - SERVICES=dynamodb,lambda,apigateway,s3,logs
+      - LAMBDA_EXECUTOR=docker
+      - DEBUG=1
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - DEFAULT_REGION=us-east-1
+      - EDGE_PORT=4566
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock'
+    tmpfs:
+      - /tmp/localstack:exec,mode=600
+

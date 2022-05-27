@@ -1,0 +1,125 @@
+{
+    "sf_acms_asp_systemAccessRequest_table": [
+      {
+        "PutRequest": {
+          "Item": {
+            "atmassociateId": {
+              "S": "ABCD1236565"
+            },
+            "legalFirstName": {
+              "S": "Benjamin"
+            },
+            "legalMiddleName": {
+              "S": "L"
+            },
+            "legalGenerationalQualifierName": {
+              "S": "Jr"
+            },
+            "lastName": {
+              "S": "Walder"
+            },
+            "preferredFirstName": {
+              "S": "Ben"
+            },
+            "preferredMiddleName": {
+              "S": "M"
+            },
+            "preferredGenerationalQualifierName": {
+              "S": "Sr"
+            },
+            "ssn": {
+              "S": "432343234"
+            },
+            "dateOfBirth": {
+              "S": "01/01/2000"
+            },
+            "agents": {
+              "L": [
+                {
+                  "S": "TCTY71YS000"
+                }
+              ]
+            },
+            "generationalQualifierName": {
+              "S": ""
+            },
+            "languagesSpoken": {
+              "L": [
+                {
+                  "M": {
+                    "language": {
+                      "S": "Spanish"
+                    },
+                    "speakingProficiency": {
+                      "S": "Intermediate"
+                    }
+                  }
+                }
+              ]
+            },
+            "bigCaseId": {
+              "S": "ABCD1234"
+            },
+            "backgroundCheckDocument": {
+              "S": "yes"
+            },
+            "backgroundCheckRequestedDate": {
+              "S": "12/31/2021"
+            },
+            "needsAgreementReplication": {
+              "S": "yes"
+            },
+            "currentAssociateId": {
+              "S": "ACD134"
+            },
+            "questions": {
+              "M": {
+                "hasVerifiedId": {
+                  "S": "yes"
+                },
+                "w2Employee": {
+                  "S": "yes"
+                },
+                "w2Family": {
+                  "S": "yes"
+                },
+                "w2AnotherAgent": {
+                  "S": "yes"
+                },
+                "w2AnotherEntity": {
+                  "S": "yes"
+                },
+                "willNotDivert": {
+                  "S": "yes"
+                },
+                "hasFelonyConviction": {
+                  "S": "yes"
+                },
+                "hasCriminalOffense": {
+                  "S": "yes"
+                },
+                "hasBeenApproved": {
+                  "S": "yes"
+                },
+                "isYubiKeyNeeded": {
+                  "S": "yes"
+                },
+                "isAgent2Agent": {
+                  "S": "yes"
+                }
+              }
+            },
+            "requestState": {
+              "S": "review"
+            },
+            "isRestricted": {
+              "BOOL": false
+            },
+            "isLegalLastNameMismatch": {
+              "BOOL": false
+            }
+          }
+        }
+      }
+    ]
+  }
