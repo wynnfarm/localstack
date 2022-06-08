@@ -32,3 +32,9 @@ resource "null_resource" "init-db" {
    }
    depends_on = [aws_dynamodb_table.main-table]
  }
+
+module "lambda" {
+  source = "./lambda"
+  path = "firstOne"
+  function_name = "myLambda"
+}
