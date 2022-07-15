@@ -1,0 +1,14 @@
+{
+    "sf_acms_asp_systemAccessRequest_table": [
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "ABCD1236565"
+            }
+            
+          }
+        }
+      }
+    ]
+  }

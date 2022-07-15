@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "serverless-localstack": "^0.4.36"
+  },
+  "name": "localstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "serverless": "^3.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wynnfarm/localstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wynnfarm/localstack/issues"
+  },
+  "homepage": "https://github.com/wynnfarm/localstack#readme",
+  "description": ""
+}

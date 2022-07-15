@@ -1,0 +1,16 @@
+{
+    "my_first_localstack_table": [
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "ABCD1236565"
+            },
+            "favoritePie": {
+              "S": "apple pie"
+            }
+          }
+        }
+      }
+    ]
+  }
